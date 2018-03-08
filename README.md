@@ -1,14 +1,21 @@
 # Alloy WooCommerce Extension
 
 Contributor: Brador2000
+
 Donate: A2vpi4ZNx31jR8C4VKAvLTRzBVgVgbFYKb7vn7kLFTccW8ngsTqiWYSWEtoo2NU9xEAgS9kgztzsRM9fLagxTCE8V4oQDm5
+
 Tags: alloy, woocommerce, integration, payment, merchant, cryptocurrency, accept alloy, alloy woocommerce
+
 Requires at least: 4.0
+
 Tested up to: 4.9.4
+
 Stable tag: trunk
+
 License: GPLv3 or later
+
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
- 
+
 Alloy WooCommerce Extension is a WordPress plugin that allow merchants to accept Alloys are payments at WooCommerce-powered online stores.
 
 **Description**
@@ -46,7 +53,7 @@ Once you installed and activated WooCommerce, you may install and activate the A
 1. Deactivate plugin through the 'Plugins' menu in WordPress
 2. Delete plugin through the 'Plugins' menu in WordPress
 
-**Screenshots **
+**Screenshots**
 
 1. screenshot1.png - Alloy Checkout Gateway options page
 2. screenshot2.png - transaction in progress
@@ -65,20 +72,31 @@ soon
 
 1. The instructions don't tell me how to setup walletd locally on my server; just that it is required.
    How do I install and configure walletd?
+
    That is covered here: https://github.com/alloyproject/alloy
    
 2. I have encountered the following message on the plugin options page:
+
    ```Your Alloy Address doesn't seem valid. Have you checked it?```
+   
    What does this mean?
+   
    Alloy addresses are 95 characters long we can't know if your address is correct but we do check for you to make sure that it didn't get truncated it when it was copied and pasted.
    
 3. I have encountered the following message on the plugin options page:
+
    ```[ERROR] Failed to connect to alloy-wallet-rpc at localhost port 8070```
+   
    ```Invalid response data structure: Request id: 1 is different from Response id:```
+   
    ```Your available balance is: Not Avaliable```
+   
    ```Locked balance: Not Avaliable```
+   
    What does this mean?
+   
    It means that the plugin can't communicate with the walletd RPC API to get the info it needs and you need to troubleshoot walletd.
    
 4. How do I know that an order has been paid for and the customer didn't just close the page after indicating they were paying with Alloy (XAO) and placing the order?
+
    Check the Orders page in WooCommerce. If an order status is "On hold" it has not been paid for.
