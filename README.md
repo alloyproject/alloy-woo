@@ -9,7 +9,7 @@ Stable tag: trunk
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
  
-# Alloy WooCommerce Extension is a WordPress plugin that allow merchants to accept Alloys are payments at WooCommerce-powered online stores.
+Alloy WooCommerce Extension is a WordPress plugin that allow merchants to accept Alloys are payments at WooCommerce-powered online stores.
 
 **Description**
 
