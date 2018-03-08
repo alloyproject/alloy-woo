@@ -37,13 +37,13 @@ Once you have installed and activated WooCommerce, you can then install and acti
    
      ```./walletd -d -w woowallet.wallet -p YourPassword --local```
    * This means that you have complete control over the server and it is not a multi-tenant WordPress host.
-   * You *must* have console and root access to the OS.
+   * You **must** have console and root access to the OS.
 2. Recommended: The wallet running on the server hosting WordPress has a unique Alloy wallet address that is only for accepting payments and you regularly transfer money out of that wallet address to another Alloy wallet address you control.
 
 **Installation**
 
 1. Download the zip file from releases.
-2. Change the name of the file from woocommerce-alloy-gateway.<version>.zip to woocommerce-alloy-gateway.zip.
+2. Change the name of the file from woocommerce-alloy-gateway.*version*.zip to woocommerce-alloy-gateway.zip.
 3. It must be woocommerce-alloy-gateway.zip otherwise there will be broken paths after installation.
 4. Install woocommerce-alloy-gateway.zip file in WordPress just like any other plugin.
 5. Activate the plugin.
