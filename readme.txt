@@ -26,9 +26,9 @@ Once you have installed and activated WooCommerce, you may then install and acti
 == Requirements ==
 
 1. Walletd running fully synced as a daemon or service on the server that is hosting WordPress.
-   a) On Linux the command to run your instance is as follows: ./walletd -d -w woowallet.wallet -p YourPassword --local
-   a) This means that you have complete control over the server and it is not a multi-tenant WordPress host.
-   b) you have console and root access to the OS.
+   * On Linux the command to run your instance is as follows: ./walletd -d -w woowallet.wallet -p YourPassword --local
+   * This means that you have complete control over the server and it is not a multi-tenant WordPress host.
+   * you have console and root access to the OS.
 2. Recommended: The wallet running on the server hosting WordPress has a unique Alloy wallet address that is only for accepting payments and you regularly transfer money out of that wallet address to another Alloy wallet address you control.
 
 == Installation ==
@@ -70,7 +70,7 @@ soon
 2. I have encountered the following message on the plugin options page:
    "Your Alloy Address doesn't seem valid. Have you checked it?"
    What does this mean?
-   Alloy addresses are 95 characters long we can't know if your address is correct but we do check for you to make sure that it didn't get truncated it when it was copied and pasted.
+   Alloy addresses are 95 characters long. The plugin can't know if your address is correct but it does check for you to make sure that it didn't get truncated it when it was copied and pasted.
    
 3. I have encountered the following message on the plugin options page:
    "[ERROR] Failed to connect to alloy-wallet-rpc at localhost port 8070
