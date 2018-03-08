@@ -1,4 +1,5 @@
 === Alloy WooCommerce Extension ===
+
 Contributors: Brador2000
 Donate: A2vpi4ZNx31jR8C4VKAvLTRzBVgVgbFYKb7vn7kLFTccW8ngsTqiWYSWEtoo2NU9xEAgS9kgztzsRM9fLagxTCE8V4oQDm5
 Tags: alloy, woocommerce, integration, payment, merchant, cryptocurrency, accept alloy, alloy woocommerce
