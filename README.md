@@ -37,7 +37,7 @@ Once you have installed and activated WooCommerce, you can then install and acti
    
      ```./walletd -d -w woowallet.wallet -p YourPassword --local```
    * This means that you have complete control over the server and it is not a multi-tenant WordPress host.
-   * you have console and root access to the OS.
+   * You *must* have console and root access to the OS.
 2. Recommended: The wallet running on the server hosting WordPress has a unique Alloy wallet address that is only for accepting payments and you regularly transfer money out of that wallet address to another Alloy wallet address you control.
 
 **Installation**
